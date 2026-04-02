@@ -1,5 +1,5 @@
 # Bone-fracture-detection-ml
-A machine learning-based system for detecting bone fractures from X-ray images using CNN-based feature extraction and Random Forest classification.
+A machine learning-based system for detecting and classifying bone fractures from X-ray images using CNN-based feature extraction and Random Forest classification.
 
 ## 📑 Table of Contents
 
@@ -21,17 +21,19 @@ A machine learning-based system for detecting bone fractures from X-ray images u
 - Random Forest classifier with 200 estimators for robust prediction  
 - Image preprocessing including resizing (32×32) and normalization  
 - High-dimensional feature vector generation (3072 features per image)  
-- Achieved ~84% classification accuracy on test data  
+- Achieved ~84% accuracy on unseen test data
 - Model evaluation using precision, recall, F1-score, and accuracy  
 - Tkinter-based GUI for instant X-ray image prediction  
   
 ## 📁 Project Structure
 
 ```
-bone-fracture-detection-ml/
-│
+📁 bone-fracture-detection-ml/
 ├── main.py
 ├── BoneClassification.py
+├── requirements.txt
+├── README.md
+├── .gitignore
 │
 ├── model/
 │   ├── model.txt
@@ -42,10 +44,6 @@ bone-fracture-detection-ml/
 ├── TestImages/
 │   ├── sample1.png
 │   └── sample2.png
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
 ```
 ## ⚙️ Prerequisites
 
@@ -54,8 +52,7 @@ Ensure the following are installed on your system:
 - Python 3.x  
 - pip (Python package manager)  
 - Required libraries: NumPy, OpenCV, Scikit-learn, Keras, TensorFlow, Matplotlib  
-
-> Recommended: Use a virtual environment for dependency management.
+> Recommended: Python 3.10 (for TensorFlow compatibility), Use a virtual environment for dependency management.
 
 ---
 
@@ -114,7 +111,7 @@ Includes bone types such as:
 
 - Ensure all required dependencies are installed using `pip install -r requirements.txt`  
 - Verify that all model files (`model.txt`, `X.txt.npy`, `Y.txt.npy`) are present inside the `model/` directory  
-- Check image file paths and formats while testing predictions  
+- Check image file paths and ensure supported formats (JPG, PNG)
 - Ensure input images are properly preprocessed (resized to 32×32 and normalized)  
 - If prediction errors occur, confirm that the feature vector shape matches the trained model input (3072 features)  
 - Ensure compatible Python version (Python 3.x recommended)
