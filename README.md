@@ -23,28 +23,28 @@ A machine learning-based system for detecting bone fractures from X-ray images u
 - Achieved ~84% accuracy  
 - GUI-based prediction system using Tkinter
   
-## 🗂️ Project Structure
-  bone-fracture-detection-ml/
+## 📁 Project Structure
+
+```
+bone-fracture-detection-ml/
 │
 ├── main.py
 ├── BoneClassification.py
 │
 ├── model/
-│ ├── model.txt
-│ ├── model_backup.txt
-│ ├── X.txt.npy
-│ └── Y.txt.npy
+│   ├── model.txt
+│   ├── model_backup.txt
+│   ├── X.txt.npy
+│   └── Y.txt.npy
 │
-├── testImages/
-│ ├── sample1.png
-│ ├── sample2.png
+├── TestImages/
+│   ├── sample1.png
+│   └── sample2.png
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
----
-
+```
 ## ⚙️ Prerequisites
 
 - Python (3.x recommended)  
