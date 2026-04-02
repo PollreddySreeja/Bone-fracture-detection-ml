@@ -2,17 +2,18 @@
 A machine learning-based system for detecting and classifying bone fractures from X-ray images using CNN-based feature extraction and Random Forest classification.
 
 ## 📑 Table of Contents
-
-- Features  
-- Project Structure  
-- Prerequisites  
-- Setup Instructions  
-  - Backend  
-- Running the Application  
-- Dataset  
-- Performance Metrics  
-- Troubleshooting  
-- License
+```
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Setup Instructions](#setup-instructions)
+  - [Backend](#backend)
+- [Running the Application](#running-the-application)
+- [Dataset](#dataset)
+- [Performance Metrics](#performance-metrics)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+```
 
 ## 🚀 Features
 
